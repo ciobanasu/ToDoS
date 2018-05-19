@@ -64,7 +64,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             toDoTableView.separatorStyle  = .singleLine
             numOfSections                 = todos.count
             toDoTableView.backgroundView  = nil
-        } else {
+        }
+        // if table view is empty, doesn't have a content
+        else {
             let imageName                 = "to-do.png"
             let image                     = UIImage(named: imageName)
             let imageView                 = UIImageView(image: image!)
