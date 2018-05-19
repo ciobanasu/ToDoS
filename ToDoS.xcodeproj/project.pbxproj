@@ -56,6 +56,7 @@
 		87A8C6D320AED772008A564B = {
 			isa = PBXGroup;
 			children = (
+				52A23C0720B0A0A700843022 /* README.md */,
 				87A8C6DE20AED772008A564B /* ToDoS */,
 				87A8C6DD20AED772008A564B /* Products */,
 				337D97A0439F5CFF192EB630 /* Pods */,
@@ -81,7 +82,6 @@
 				87A8C6E620AED774008A564B /* Assets.xcassets */,
 				87A8C6EB20AED774008A564B /* Info.plist */,
 				5269A35E20B02A97009378B1 /* LaunchScreen.storyboard */,
-				52A23C0720B0A0A700843022 /* README.md */,
 			);
 			path = ToDoS;
 			sourceTree = "<group>";
