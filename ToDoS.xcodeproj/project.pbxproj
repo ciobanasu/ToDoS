@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5269A35F20B02A97009378B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5269A35E20B02A97009378B1 /* LaunchScreen.storyboard */; };
 		52A23C0820B0A0A700843022 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 52A23C0720B0A0A700843022 /* README.md */; };
+		8781A5B120B5800A006F705F /* notification.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8781A5B020B5800A006F705F /* notification.mp3 */; };
 		87A8C6E020AED772008A564B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A8C6DF20AED772008A564B /* AppDelegate.swift */; };
 		87A8C6E220AED772008A564B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A8C6E120AED772008A564B /* ViewController.swift */; };
 		87A8C6E520AED772008A564B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A8C6E320AED772008A564B /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		12CA20441307C6469C029674 /* Pods-ToDoS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToDoS/Pods-ToDoS.debug.xcconfig"; sourceTree = "<group>"; };
 		5269A35E20B02A97009378B1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52A23C0720B0A0A700843022 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8781A5B020B5800A006F705F /* notification.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = notification.mp3; sourceTree = "<group>"; };
 		87A8C6DC20AED772008A564B /* ToDoS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A8C6DF20AED772008A564B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87A8C6E120AED772008A564B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 		87A8C6DE20AED772008A564B /* ToDoS */ = {
 			isa = PBXGroup;
 			children = (
+				8781A5B020B5800A006F705F /* notification.mp3 */,
 				87A8C6DF20AED772008A564B /* AppDelegate.swift */,
 				87A8C6E120AED772008A564B /* ViewController.swift */,
 				87A8C6F120AED8D5008A564B /* InsertViewController.swift */,
@@ -154,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8781A5B120B5800A006F705F /* notification.mp3 in Resources */,
 				5269A35F20B02A97009378B1 /* LaunchScreen.storyboard in Resources */,
 				87A8C6E720AED774008A564B /* Assets.xcassets in Resources */,
 				52A23C0820B0A0A700843022 /* README.md in Resources */,
@@ -353,7 +357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZZNJD3AB8C;
 				INFOPLIST_FILE = ToDoS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -373,7 +377,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZZNJD3AB8C;
 				INFOPLIST_FILE = ToDoS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

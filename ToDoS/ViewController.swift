@@ -14,10 +14,9 @@ var realm = try! Realm()
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
-
     @IBOutlet var toDoTableView: UITableView!
     
-    
+    // did load
     override func viewDidLoad() {
         super.viewDidLoad()
         todos                          = realm.objects(ToDo.self)
@@ -26,6 +25,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         reload()
         //self.toDoTableView.rowHeight   = 50
         navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0, green: 0.5450980392, blue: 0.5450980392, alpha: 1)
+        let textAttributes = [NSAttributedStringKey.foregroundColor:UIColor.red]
+        navigationController?.navigationBar.titleTextAttributes = textAttributes
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -35,10 +36,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-  // hide status bar
-//  override var prefersStatusBarHidden: Bool {
-//    return true
-//  }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "todoCell" {
